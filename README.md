@@ -33,3 +33,18 @@ The **Library Management System** is a web-based application built with **Spring
 ---
 
 ## 📂 Project Structure
+Library-Management-System-Springboot
+│── src/main/java/com/example/lms
+│ ├── controller # Handles HTTP requests
+│ ├── dto # Data Transfer Objects
+│ ├── entity # JPA Entities
+│ ├── repository # Data Access Layer
+│ ├── service # Business Logic
+│ └── LmsApplication.java
+│
+│── src/main/resources
+│ ├── static # CSS, JS
+│ ├── templates # Thymeleaf HTML pages
+│ └── application.yml
+│
+│── pom.xml # Maven dependencies
